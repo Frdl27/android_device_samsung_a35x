@@ -27,11 +27,18 @@ OF_ENABLE_USB_STORAGE := 1
 OF_IGNORE_LOGICAL_MOUNT_ERRORS := 1
 OF_BIND_MOUNT_SDCARD_ON_FORMAT := 1
 
+# Maximum permissible splash image size (in kilobytes); do *NOT* increase
+OF_SPLASH_MAX_SIZE := 130
+
+# Custom pic for maintainers about section info
+OF_MAINTAINER := TegarArf
+
 # OrangeFox GUI settings
-OF_SCREEN_H := 2340
+
+# OrangeFox GUI settings
+OF_SCREEN_H := 2280
 OF_STATUS_H := 100
 OF_STATUS_INDENT_LEFT := 48
 OF_STATUS_INDENT_RIGHT := 48
 OF_HIDE_NOTCH := 1
 OF_CLOCK_POS := 1
-OF_OPTIONS_LIST_NUM := 6
