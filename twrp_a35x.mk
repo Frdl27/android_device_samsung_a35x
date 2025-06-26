@@ -15,7 +15,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/samsung/a35x/device.mk)
 
 PRODUCT_DEVICE := a35x
-PRODUCT_NAME := terp_a35x
+PRODUCT_NAME := twrp_a35x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A356B
 PRODUCT_MANUFACTURER := samsung
